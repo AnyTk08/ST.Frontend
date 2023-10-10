@@ -1,0 +1,42 @@
+.divider {
+    display: flex;
+    font-size: 16px;
+    color: #323232ab;
+}
+
+.divider:before {
+    content: "";
+    flex: 0.1;
+}
+
+.divider:after {
+    content: "";
+    flex: 1;
+}
+
+.line {
+    align-items: center;
+    margin: 1em -1em;
+}
+
+.line:before,
+.line:after {
+    height: 0.7px;
+    margin: 0 1em;
+}
+
+.one-line:before {
+    /* background: #a1a1a14f; */
+    width: 10%;
+    position: relative;
+    /* transform: translateY(50%); */
+    border-top: thin solid rgba(0, 0, 0, 0.12);
+}
+
+.one-line:after {
+    /* background: #a1a1a14f; */
+    width: 90%;
+    position: relative;
+    /* transform: translateY(50%); */
+    border-top: thin solid rgba(0, 0, 0, 0.12);
+}

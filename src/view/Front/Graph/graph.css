@@ -1,0 +1,33 @@
+#table-graph table {
+    border-collapse: collapse;
+    width: 100%;
+    /* border-spacing: 0px; */
+    /* table-layout: fixed; */
+}
+
+#table-graph th {
+    background-color: #5697fb;
+    color: #ffffff;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+#table-graph td {
+    border: 1px solid #dddddd;
+    padding: 4px;
+    white-space: normal;
+}
+
+
+#legendBudget {
+    height: 150px;
+  }
+  
+  /* #legendwrapper {
+    max-height: 120px;
+    overflow-x: none;
+    overflow-y: auto;
+  } */

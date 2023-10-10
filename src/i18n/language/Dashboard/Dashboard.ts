@@ -1,0 +1,51 @@
+export const dashboard_th = {
+    dashboard: {
+      sSDGs : "Global Strategy (SDGs) หลัก",
+      sCorporateStrategy : "Corporate Strategy",  
+      sAreaTypeName: "ประเภทพื้นที่",
+      sAgencyName: "หน่วยงานที่รับผิดชอบหลัก",
+      sProcess : "ระยะเวลาดำเนินงาน",
+      dStart : "เริ่มโครงการ",
+      dEnd : "สิ้นสุดโครงการ",
+      sIndicator : "ตัวชี้วัด",
+      sResource : "ทรัพยากร",
+      sAgriculture : "การเกษตร",
+      sProduct : "ผลิตภัณฑ์",      
+      sStakeholders : "ผู้มีส่วนได้ส่วนเสียที่สำคัญ",
+      sPTTProject : "โครงการพัฒนาของ ปตท. และกลุ่ม ปตท. ในอดีต",
+      sAreaName : "พื้นที่ดำเนินการ",
+      sProvice : "จังหวัด",
+      sDistrict : "อำเภอ",
+      sSubDistrict : "ตำบล",
+      sProject : "โครงการ",
+      sMap : "พื้นที่โครงการ",
+      sSumResultBudgetProject : "งบประมาณสะสม",
+      sSumArea : "จำนวนพื้นที่ในโครงการ",
+    }
+  };
+  export const dashboard_en = {
+    dashboard: {
+      sSDGs : "Global Strategy (SDGs) หลัก",
+      sCorporateStrategy : "Corporate Strategy",  
+      sAreaTypeName: "ประเภทพื้นที่",
+      sAgencyName: "หน่วยงานที่รับผิดชอบหลัก",
+      sProcess : "ระยะเวลาดำเนินงาน",
+      dStart : "เริ่มโครงการ",
+      dEnd : "สิ้นสุดโครงการ",
+      sIndicator : "ตัวชี้วัด",
+      sResource : "ทรัพยากร",
+      sAgriculture : "การเกษตร",
+      sProduct : "ผลิตภัณฑ์",      
+      sStakeholders : "ผู้มีส่วนได้ส่วนเสียที่สำคัญ",
+      sPTTProject : "โครงการพัฒนาของ ปตท. และกลุ่ม ปตท. ในอดีต",
+      sAreaName : "พื้นที่ดำเนินการ",
+      sProvice : "จังหวัด",
+      sDistrict : "อำเภอ",
+      sSubDistrict : "ตำบล",
+      sProject : "โครงการ",
+      sMap : "พื้นที่โครงการ",
+      sSumResultBudgetProject : "งบประมาณสะสม",
+      sSumArea : "จำนวนพื้นที่ในโครงการ",
+    }
+  };
+  

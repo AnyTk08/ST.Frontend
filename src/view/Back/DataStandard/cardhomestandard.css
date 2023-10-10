@@ -1,0 +1,23 @@
+.card-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+    width: 100%;
+    height: 100px;
+    transition: all .2s;
+    border: solid 0.07rem #3695dc;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-content:hover {
+    cursor: pointer;
+    background-image: linear-gradient(163deg, #bad7ff 0%, #a0dcff 100%);
+    transform: scale(0.98);
+    border-radius: 15px;
+    border-radius: #e7f2ff;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+

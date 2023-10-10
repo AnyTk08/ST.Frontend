@@ -1,0 +1,361 @@
+.Arrow-Controll-Banner {
+    z-index: 1;
+    top: 50%;
+    margin: 0 1rem;
+    border-radius: 50%;
+    background-color: #304ffe;
+    color: white;
+    padding: 0.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.2rem;
+}
+
+.Arrow-Swiper-Next {
+    position: absolute;
+    right: 0 !important;
+}
+
+.Arrow-Swiper-Pre {
+    position: absolute;
+    left: 0 !important;
+}
+
+.BannerSlideSwiper
+{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+border-top-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+}
+
+.BannerSlideSwiper .slick-dots {
+    bottom: 10px !important;
+}
+
+.MuiInputLabel-asterisk {
+    color: red;
+}
+
+.banner-absolute {
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    -webkit-transform: translate(-50%, -40%);
+}
+
+.banner-absolute-slide {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.page-of-slide {
+    font-size: 2rem;
+}
+
+.fc-list-event-time::after {
+    content: " น.";
+
+}
+
+.content-of-page {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    height: 5rem;
+}
+
+.thin-text {
+    font-weight: 100;
+}
+
+.page-slide {
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.container-icon-sound {
+    cursor: pointer;
+    width: 2.2em;
+    height: 2.2em;
+    right: 1.5em;
+    bottom: 1.5em;
+    position: absolute;
+    z-index: 10;
+    border-radius: 50%;
+    border-color: black;
+    background-color: black;
+    border: 1px black solid;
+}
+
+.icon-sound-mute {
+    color: white;
+    font-size: 2em !important;
+}
+
+.size_image {
+    width: 100%;
+}
+
+div.BannerSlideSwiper>.swiper-slide img {
+    border-radius: 0px !important;
+}
+
+/* Product Slide */
+.ProductSlideSwiper {
+    height: 560px;
+    background-color: #333333;
+    position: relative;
+}
+
+.product-background {
+    height: 560px;
+    width: 100%;
+}
+
+.product-absolute {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+
+.product-absolute-Head {
+    color: white;
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 0.5;
+}
+
+.product-absolute-title {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.product-absolute-btn {
+    width: 155px;
+    height: 35px;
+    background-color: #006bef;
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    border-radius: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.product-absolute-btn:hover {
+    background-color: #005dce;
+}
+
+
+/* News Slide */
+.NewsSlideSwiper {
+    height: 400px;
+    background-color: transparent;
+}
+
+.news-slide-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 30px 0;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.news-title {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 0.8;
+}
+
+.news-date {
+    font-size: 12px;
+    font-weight: 500;
+    color: #3670e5;
+}
+
+.news-readmore-btn {
+    width: 100px;
+    height: 30px;
+    background-color: #0b33be;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.news-readmore-btn:hover {
+    background-color: rgb(0, 61, 136);
+}
+
+
+/* History Slide */
+.historySlideSwiper {
+    height: calc(100vw * 9 / 25);
+    background-color: #333333;
+    position: relative;
+}
+
+.history-background {
+    height: calc(100vw * 9 / 25);
+}
+
+.history-title-box {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.history-title {
+    color: #3d5292;
+    font-size: 6vw;
+    font-weight: 100;
+    line-height: 0.6;
+}
+
+.history-desc-box {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.history-desc {
+    color: #284ac5;
+    font-size: 2.5vw;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.history-year-box {
+    position: absolute;
+    top: 18%;
+    left: 72%;
+}
+
+.history-year {
+    color: #0d1045;
+    font-size: 4.2vw;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.history-name-box {
+    position: absolute;
+    top: 50%;
+    left: 72%;
+}
+
+.history-name {
+    color: #0d1045;
+    font-size: 3.2vw;
+    font-weight: 400;
+    line-height: 0.8;
+}
+
+@media (max-width: 1200px) {
+
+    /* Banner */
+    .banner-absolute {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .product-absolute-btn {
+        font-size: 22px;
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 950px) {
+    .page-slide {
+        font-size: 1rem;
+        padding: 0 0.55rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* Banner */
+    .banner-absolute {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    /* Product Slide */
+    .ProductSlideSwiper {
+        height: 520px;
+        background-color: #333333;
+        position: relative;
+    }
+
+    .product-background {
+        height: 520px;
+        width: 100%;
+    }
+
+    .product-absolute {
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+    }
+
+    .product-absolute-Head {
+        color: white;
+        font-size: 65px;
+    }
+
+    .product-absolute-title {
+        color: white;
+        font-size: 25px;
+    }
+
+    .banner-absolute-slide {
+        right: 1.7%;
+        bottom: 2.5%;
+        width: 30%;
+        height: 40%;
+    }
+
+    .page-slide {
+        font-size: 0.7rem;
+        padding: 0 0.4rem;
+        margin-top: 0;
+    }
+
+    
+}

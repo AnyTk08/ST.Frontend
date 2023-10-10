@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/DBHelvethaicaXThin.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/DBHelvethaicaXThinIt.ttf) format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/DBHelvethaicaXLiExt.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/DBHelvethaicaXLiExt.ttf) format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/DBHelvethaicaXLi.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/DBHelvethaicaXLi.ttf) format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/DBHelvethaicaX.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/DBHelvethaicaXIt.ttf) format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/DBHelvethaicaXMed.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/DBHelvethaicaXMedIt.ttf) format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/DBHelvethaicaXBd.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/DBHelvethaicaXBdIt.ttf) format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+.Helvetica {
+  font-family: Helvetica, sans-serif !important;
+}

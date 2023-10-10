@@ -1,0 +1,61 @@
+@import url("assets/fonts/Helvetica/css/font.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Helvetica', monospace;
+    font-size: 1.25rem !important;
+    line-height: 1.5 !important;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(157, 193, 251, 0.5);
+  /* background: transparent; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2f64c6;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0a49bd;
+}
+
+.divider-chip {
+  color: #3e97ff !important;
+  background-color: #eef6ff !important;
+  font-size: 1.25rem !important;
+}
+
+.topic-divider>.one-line:before,
+.topic-divider>.one-line:after {
+  background-color: #3e97ff !important;
+}
+
+.breadcrumb-front>.MuiBreadcrumbs-ol>.MuiBreadcrumbs-separator {
+  font-size: 2rem !important;
+  color: #005ab7;
+}
+
+.box-breadcrumb {
+  margin: 80px 0px 10px;
+  border: 1px solid #005ab7;
+  border-radius: 30px;
+  padding: 0 30px;
+  background: #005ab733;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.none-display{
+  display: none !important;
+}

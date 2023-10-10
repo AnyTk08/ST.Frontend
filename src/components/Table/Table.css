@@ -1,0 +1,217 @@
+  /* General table styles */
+  table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+/* table:not(.STsticky) {
+    top: 40px;
+} */
+
+thead {
+    background-color: #282c35;
+}
+
+th {
+    height: 39px;
+    font-size: 14px;
+    text-transform: uppercase;
+    /* border: 1px solid #d9d9d9; */
+    background-color: #ddecf6;
+    color: #31708F;
+    border-right: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+th:last-child {
+    width: 100px;
+    border-right: 0px solid #d9d9d9;
+}
+
+tbody tr:nth-last-of-type(odd) {
+    background-color: #f3f3f3;
+}
+
+td {
+    padding: 8px 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-right: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 14px;
+}
+
+td:last-child {
+    border-right: 0px solid #d9d9d9;
+}
+
+.st-div-sticky {
+    /* transition: opacity .3s; */
+    z-index: 2;
+    position: -webkit-sticky;
+    position: sticky;
+    /* -moz-animation: slide 1s ease 3.5s forwards;
+    -webkit-animation: slide 1s ease 3.5s forwards;
+    -o-animation: slide 1s ease 3.5s forwards;
+    -ms-animation: slide 1s ease 3.5s forwards;
+     animation: slide 1s ease 3.5s forwards; */
+}
+
+.st-div-sticky::after {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    content: '';
+    width: 100% !important;
+    position: absolute;
+    /* background-color: #000; */
+    display: block;
+    padding: 1px;
+    pointer-events: none;
+    bottom: -1px;
+
+    /* transform: translate(100%); */
+    transition: box-shadow .3s;
+
+}
+
+
+.contentTable {
+    border: 1px solid #004290;
+    overflow: auto;
+    border-radius: 3px;
+    overflow-y: hidden;
+}
+
+.contentTable:hover {
+    /* overflow: auto !important; */
+
+}
+
+.contentTable:hover::-webkit-scrollbar-thumb {
+    background-color: rgb(149, 149, 149) !important;
+    width: 20px !important;
+    cursor: pointer !important;
+    overflow: auto !important;
+
+}
+
+.contentTable::-webkit-scrollbar {
+    background-color: rgba(255, 255, 255, 0) !important;
+    /* width: 20px !important; */
+    cursor: pointer !important;
+    width: 17px !important;
+    height: 17px !important;
+
+}
+
+.contentTable::-webkit-scrollbar-track {
+    background-color: #fff !important;
+}
+
+
+/* scrollbar itself */
+
+.contentTable::-webkit-scrollbar-thumb {
+    background-color: #babac000 !important;
+    border-radius: 16px !important;
+    border: 4px solid #fff !important;
+    cursor: pointer !important;
+}
+
+
+
+.stickycol {
+    position: sticky;
+    left: 0;
+    z-index: 1 !important;
+}
+
+th.stickycol {
+    background-color: #ddecf6;
+    color: #31708F;
+}
+
+td.stickycol {
+    background-color: #fff;
+    z-index: 1 !important;
+}
+
+.stickycol::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.stickycolCell0 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.stickycolCell0::after {
+    bottom: -1px;
+    width: 3px;
+    transform: translate(100%);
+    transition: box-shadow .3s;
+    content: "";
+    pointer-events: none;
+    background-color: #d1d1d1;
+}
+
+.stickyshadow::after {
+    bottom: -1px;
+    width: 30px;
+    transform: translate(100%);
+    transition: box-shadow .3s;
+    content: "";
+    pointer-events: none;
+    box-shadow: inset 10px 0 8px -8px #afa9a9b4;
+}
+
+@media only screen and (max-width: 550px) {
+    .st-div-sticky {
+        top: 70px;
+    }
+}
+
+
+.table-sticky-scroll {
+    position: fixed;
+    bottom: 0;
+    height: 11px !important;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    background: rgb(78 171 234);
+    border-top: 1px solid #f0f0f0;
+    overflow-x: 'scroll';
+
+    /* width: 100%; */
+}
+
+.table-sticky-scroll-bar {
+    height: 10px;
+    background-color: #053d54 !important;
+    border-radius: 100px;
+    transition: all 0.3s, transform none;
+    position: absolute;
+    bottom: 0;
+}
+
+.track {
+    left: 0;
+    position: sticky;
+
+    /* Take full size */
+    height: 20px;
+    width: 100%;
+}
+
+#thumb {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+}

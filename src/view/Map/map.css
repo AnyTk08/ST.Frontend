@@ -1,0 +1,118 @@
+.pac-container {
+    border-radius: 14px !important;
+    /* font-family: "Helvetica"; */
+}
+
+.pac-logo:after {
+    display: none;
+}
+
+.pac-item {
+    padding: 3px 8px;
+    font-size: 14px;
+    /* font-family: "Helvetica"; */
+}
+
+.gm-control-active {
+    border-radius: 14px !important;
+}
+
+.gmnoprint>.gmnoprint div {
+    border-radius: 14px !important;
+}
+
+.gm-svpc {
+    border-radius: 14px !important;
+    height: 35px !important;
+    width: 35px !important;
+    left: 6px !important;
+    top: 6px !important;
+}
+
+.gm-style .gm-style-iw-c {
+    width: 275px !important;
+}
+
+.input-search-map {
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 255px;
+    height: 41px;
+    padding: 0 12px;
+    border-radius: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    outline: none;
+    text-overflow: ellipses;
+    position: absolute;
+    left: 130px;
+    top: 2%;
+    margin-left: -120px;
+    padding-left: 40px;
+}
+
+.btn-marker{
+    width: 40px;
+    height: 40px;
+    background: none rgb(255, 255, 255);
+    background-color: blueviolet;
+    position: absolute;
+    top: 12%;
+    right: 1%;
+    z-index: 1;
+    border: 0px;
+    padding: 0px;
+    text-transform: none;
+    appearance: none;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 41px;
+    width: 255px;
+    margin-top: 10px;
+}
+
+.input-icon {
+    position: absolute;
+    left: 20px;
+}
+
+.underline-on-hover-text {
+    cursor: pointer;
+    font-weight: 400;
+    color: #1a73e8;
+}
+
+.underline-on-hover-text:hover {
+    text-decoration: underline;
+}
+
+#search-map input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: red;
+}
+
+
+@media screen and (max-width: 767px) {
+    .gm-control-active {
+        display: none;
+    }
+    .input-container{
+        width: 92%;
+    }
+    .input-search-map {
+        width: 92%;
+    }
+}

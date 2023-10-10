@@ -1,0 +1,319 @@
+:root {
+    --page-padX: 2%;
+    --page-padY: 20px;
+    --box-rounded: 1.5em;
+    --box-margin: 10px;
+    --bar-thickness: 45px;
+    --box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    --blue-dark: #181365
+}
+
+.color-blue {
+    color: var(--blue-dark)
+}
+
+.color-back {
+    background: var(--blue-dark);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 33px 28px -14px;
+}
+
+.hover-white :hover {
+    color: white !important;
+}
+
+.content-layout {
+    margin: 0px 2em;
+    width: 100%;
+}
+
+.icon-1 {
+    color: #ffffff;
+    font-size: 1.5rem !important;
+}
+
+.icon-2 {
+    color: #004290;
+    font-size: 1.5rem !important;
+}
+
+
+
+.btn-scroll-bottom {
+    background: #66BD5E;
+    background: linear-gradient(180deg, #66BD5E, #0F98AD);
+    z-index: 1000;
+    bottom: 12px;
+    left: 25px;
+    position: fixed;
+    width: 46.7px;
+    height: 87.5px;
+}
+
+.btn-scroll-top {
+    background: #66BD5E;
+    background: linear-gradient(0deg, #66BD5E, #0F98AD);
+    position: fixed;
+    bottom: 12px;
+    right: 15px;
+    width: 46.7px;
+    height: 87.5px;
+}
+
+/* Side menu */
+
+.active {
+    background: #005ab7 !important;
+    background: -moz-linear-gradient(top, #005ab7 0%, #052c46 100%) !important;
+    background: -webkit-linear-gradient(top, #005ab7 0%, #052c46 100%) !important;
+    background: linear-gradient(to bottom, #005ab7 0%, #052c46 100%) !important;
+}
+
+.display-hide-mb {
+    display: flex;
+}
+
+.body-tools {
+    z-index: 10;
+    position: fixed;
+    /* top: 9.3%; */
+    top: 0;
+    bottom: 0%;
+    left: 6%;
+    margin-top: 70px;
+}
+
+.menu {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    width: 2px;
+    height: 100%;
+    padding: 5em 0;
+    margin-left: var(--box-margin);
+    margin-right: var(--box-margin);
+    background: #d4d4d4;
+    /* background: -moz-linear-gradient(top, #d4d4d4 0%, #dcdcdc 100%);
+    background: -webkit-linear-gradient(top, #d4d4d4 0%, #dcdcdc 100%);
+    background: linear-gradient(to bottom, #d4d4d4 0%, #dcdcdc 100%); */
+    background: -moz-linear-gradient(top,  #005ab7 0%, #052c46 100%);
+    background: -webkit-linear-gradient(top, #005ab7 0%, #052c46 100%);
+    background: linear-gradient(to bottom, #005ab7 0%, #052c46 100%);
+    border-radius: var(--box-rounded);
+    box-shadow: var(--box-shadow);
+}
+
+.main-nav>.menu {
+    width: 100%;
+}
+
+
+.main-nav>.menu li {
+    margin-left: -1.2em;
+}
+
+.main-nav>.menu li+li {
+    margin-top: 6px;
+}
+
+.main-nav>.menu a {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    background: #575858;
+    background: -moz-linear-gradient(top, #575858 0%, #949da3 100%);
+    background: -webkit-linear-gradient(top, #575858 0%, #949da3 100%);
+    background: linear-gradient(to bottom, #575858 0%, #949da3 100%);
+    border-radius: var(--box-rounded);
+    box-shadow: 0px 0px 6px 1px #6e6e6e !important;
+}
+
+.main-nav>.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Back layout */
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 64px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    margin-top: 64px;
+}
+
+
+.text-prj1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.text-prj2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.padding-content-layout {
+    padding: 1em 2em 1em 8em;
+    margin-top: 80px;
+}
+
+.div-glass {
+    background: rgba(248, 248, 248, 0.748);
+    backdrop-filter: blur(10px);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-bottom-right-radius: 16px;
+    -webkit-border-bottom-left-radius: 16px;
+    -moz-border-radius-bottomright: 16px;
+    -moz-border-radius-bottomleft: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    box-shadow: 2px -2px 20px 0px #6e6e6e !important;
+}
+
+.div-glass-child {
+    /* background: rgba(248, 248, 248, 0.748); */
+    background: rgb(255, 255, 255);
+    /* backdrop-filter: blur(10px); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 1rem;
+    border: 1px solid #005ab7;
+    /* box-shadow: 0px 0px 15px 0px #6e6e6e !important; */
+}
+
+/* mini labtop */
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .padding-content-layout {
+        padding: 1em 2em 1em 6em;
+    }
+
+    .content-layout {
+        margin: 0px 2em;
+        width: 100%;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 901px) and (max-width: 1023px) {
+    .padding-content-layout {
+        padding: 1em 1em 1em 5em;
+    }
+
+    .content-layout {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .body-tools {
+        left: 4%;
+    }
+
+    .text-prj1 {
+        font-size: 1.8rem;
+    }
+
+    .text-prj2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    .padding-content-layout {
+        padding: 1em 1em 1em 4.5em;
+    }
+
+    .content-layout {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .body-tools {
+        left: 4%;
+    }
+
+    .text-prj1 {
+        font-size: 1.7rem;
+    }
+
+    .text-prj2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+    .body-tools {
+        display: none !important;
+    }
+
+    .display-hide-mb {
+        display: none;
+    }
+
+    .padding-content-layout {
+        padding: 1em;
+    }
+
+    .text-prj1 {
+        font-size: 1.9rem;
+    }
+
+    .text-prj2 {
+        font-size: 1.3rem;
+    }
+}
